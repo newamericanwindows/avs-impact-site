@@ -1,0 +1,39 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #f7f9fc;
+}
+header {
+  background: #002e5d;
+  color: white;
+  padding: 2em;
+}
+.logo {
+  width: 120px;
+  margin-bottom: 1em;
+}
+.cta-buttons {
+  margin-top: 1em;
+}
+.btn {
+  padding: 0.8em 1.5em;
+  margin: 0 0.5em;
+  text-decoration: none;
+  color: white;
+  background: #0056b3;
+  border-radius: 5px;
+}
+.services, .projects {
+  padding: 2em;
+}
+.services div, .project {
+  background: white;
+  margin: 1em auto;
+  padding: 1em;
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}

@@ -1,39 +1,56 @@
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
+  line-height: 1.6;
+  color: #1e1e1e;
+}
+.hero {
+  background: #003366;
+  color: #fff;
   text-align: center;
-  background: #f7f9fc;
+  padding: 2rem;
 }
-header {
-  background: #002e5d;
-  color: white;
-  padding: 2em;
+.hero .logo {
+  max-width: 100px;
+  margin: 1rem auto;
 }
-.logo {
-  width: 120px;
-  margin-bottom: 1em;
-}
-.cta-buttons {
-  margin-top: 1em;
+.buttons {
+  margin-top: 1.5rem;
 }
 .btn {
-  padding: 0.8em 1.5em;
-  margin: 0 0.5em;
+  padding: 0.75rem 1.5rem;
   text-decoration: none;
-  color: white;
-  background: #0056b3;
-  border-radius: 5px;
+  margin: 0 0.5rem;
+  display: inline-block;
+}
+.btn.primary {
+  background-color: #003366;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.btn.secondary {
+  background-color: #fff;
+  color: #003366;
+  border: 2px solid #003366;
 }
 .services, .projects {
-  padding: 2em;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
 }
-.services div, .project {
-  background: white;
-  margin: 1em auto;
-  padding: 1em;
+.service, .project {
   max-width: 300px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  text-align: center;
+}
+.project img {
+  width: 100%;
+  height: auto;
+}
+footer {
+  background: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
 }
